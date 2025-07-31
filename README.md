@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Savda Stock</title>
+  <title>31/07/2025</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -73,7 +73,7 @@
 </head>
 <body>
 
-  <h1>Savda Stock</h1>
+  <h1>31/07/2025</h1>
 
   <!-- Inward Section -->
   <div class="section">
