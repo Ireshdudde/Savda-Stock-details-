@@ -2,22 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>31/07/2025</title>
+  <title>(31/07/2025)</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 20px;
-      background: #f2f2f2;
+      background: #eaeef3;
     }
 
     h1 {
       text-align: center;
-      background: #1e3d59;
+      background: #003566;
       color: white;
       padding: 15px;
       border-radius: 10px;
-      letter-spacing: 1px;
     }
 
     .section {
@@ -25,11 +24,10 @@
     }
 
     .section h2 {
-      background-color: #343a40;
+      background-color: #3d5a80;
       color: #fff;
       padding: 10px 15px;
       border-radius: 8px;
-      font-size: 20px;
     }
 
     .cards {
@@ -42,20 +40,15 @@
     .card {
       flex: 1 1 220px;
       background-color: white;
-      border-left: 8px solid #0077b6;
+      border-left: 8px solid #1d3557;
       border-radius: 10px;
       padding: 15px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .card:hover {
-      transform: scale(1.02);
-    }
-
-    .card.inward { border-left-color: #28a745; }
-    .card.outward { border-left-color: #ffc107; }
-    .card.balance { border-left-color: #17a2b8; }
+    .card.inward { border-left-color: #43aa8b; }   /* Green */
+    .card.outward { border-left-color: #ef476f; }  /* Red */
+    .card.balance { border-left-color: #4361ee; }  /* Indigo */
 
     .material-name {
       font-weight: 600;
@@ -73,24 +66,15 @@
 </head>
 <body>
 
-  <h1>31/07/2025</h1>
+  <h1>(31/07/2025)</h1>
 
   <!-- Inward Section -->
   <div class="section">
     <h2>Inward</h2>
     <div class="cards">
-      <div class="card inward">
-        <div class="material-name">Vaccum Bag 13kg</div>
-        <div class="balance">1020</div>
-      </div>
-      <div class="card inward">
-        <div class="material-name">PE Form 1.5 MM (Nos)</div>
-        <div class="balance">157500</div>
-      </div>
-      <div class="card inward">
-        <div class="material-name">Fevicol (kg)</div>
-        <div class="balance">4</div>
-      </div>
+      <div class="card inward"><div class="material-name">Vaccum Bag 13kg</div><div class="balance">1020</div></div>
+      <div class="card inward"><div class="material-name">PE Form 1.5 MM (Nos)</div><div class="balance">157500</div></div>
+      <div class="card inward"><div class="material-name">Fevicol (kg)</div><div class="balance">4</div></div>
     </div>
   </div>
 
